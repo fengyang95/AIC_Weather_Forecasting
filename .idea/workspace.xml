@@ -1,0 +1,837 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="25518787-0678-46d7-b9af-a510c0e65fa6" name="Default Changelist" comment="" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/AIC_wf2018$gensubmit_xgboost_q.coverage" NAME="gensubmit_xgboost_q Coverage Results" MODIFIED="1540974788876" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/boost" />
+    <SUITE FILE_PATH="coverage/AIC_wf2018$train_catboost_reg.coverage" NAME="train_catboost_reg Coverage Results" MODIFIED="1540977179113" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/boost" />
+    <SUITE FILE_PATH="coverage/AIC_wf2018$gensubmit_lgb_v5.coverage" NAME="gensubmit_lgb_v5 Coverage Results" MODIFIED="1540986142225" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/lgbm" />
+    <SUITE FILE_PATH="coverage/AIC_wf2018$gensubmit_lgb_history_preM.coverage" NAME="gensubmit_lgb_history_preM Coverage Results" MODIFIED="1540898636190" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/lgbm" />
+    <SUITE FILE_PATH="coverage/AIC_wf2018$train_lgb_v5_preM.coverage" NAME="train_lgb_v5_preM Coverage Results" MODIFIED="1540448457305" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/lgbm" />
+    <SUITE FILE_PATH="coverage/AIC_wf2018$obs_and_M_split.coverage" NAME="obs_and_M_split Coverage Results" MODIFIED="1541239452654" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/eval" />
+    <SUITE FILE_PATH="coverage/AIC_wf2018$train_blending.coverage" NAME="train_blending Coverage Results" MODIFIED="1541062679286" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/boost" />
+    <SUITE FILE_PATH="coverage/AIC_wf2018$vis_result.coverage" NAME="vis_result Coverage Results" MODIFIED="1541050287515" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/result" />
+    <SUITE FILE_PATH="coverage/AIC_wf2018$round3.coverage" NAME="round3 Coverage Results" MODIFIED="1541239440314" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/eval/obs_and_M" />
+    <SUITE FILE_PATH="coverage/AIC_Weather_Forecasting$gensubmit_lgb.coverage" NAME="gensubmit_lgb Coverage Results" MODIFIED="1542963025484" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/gbm" />
+    <SUITE FILE_PATH="coverage/AIC_wf2018$ananysis.coverage" NAME="ananysis Coverage Results" MODIFIED="1541056487986" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/data" />
+    <SUITE FILE_PATH="coverage/AIC_Weather_Forecasting$train_on_ts_feature0_global.coverage" NAME="train_on_ts_feature0_global Coverage Results" MODIFIED="1542967937631" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/seq2seq" />
+    <SUITE FILE_PATH="coverage/AIC_Weather_Forecasting$caculate_score.coverage" NAME="caculate_score Coverage Results" MODIFIED="1543046037331" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/result" />
+    <SUITE FILE_PATH="coverage/AIC_wf2018$vis_submit__2_.coverage" NAME="vis_submit (2) Coverage Results" MODIFIED="1541075999063" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/eval/submit" />
+    <SUITE FILE_PATH="coverage/AIC_wf2018$train_elasticnet_reg.coverage" NAME="train_elasticnet_reg Coverage Results" MODIFIED="1540954729985" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/boost" />
+    <SUITE FILE_PATH="coverage/AIC_wf2018$supervised_trainer.coverage" NAME="supervised_trainer Coverage Results" MODIFIED="1540452782938" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/seq2seq/trainer" />
+    <SUITE FILE_PATH="coverage/AIC_wf2018$diff.coverage" NAME="diff Coverage Results" MODIFIED="1541209772886" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/eval/obs" />
+    <SUITE FILE_PATH="coverage/AIC_wf2018$gensubmit_lgb_history.coverage" NAME="gensubmit_lgb_history Coverage Results" MODIFIED="1540982521661" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/lgbm" />
+    <SUITE FILE_PATH="coverage/AIC_wf2018$gensubmit_lgb_history_model_v3_preM.coverage" NAME="gensubmit_lgb_history_model_v3_preM Coverage Results" MODIFIED="1540986034641" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/lgbm" />
+    <SUITE FILE_PATH="coverage/AIC_wf2018$generate_obs_M_of_day.coverage" NAME="generate_obs_M_of_day Coverage Results" MODIFIED="1541239381797" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/lgbm" />
+    <SUITE FILE_PATH="coverage/AIC_wf2018$gensubmit_lgb_v6.coverage" NAME="gensubmit_lgb_v6 Coverage Results" MODIFIED="1540899400716" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/lgbm" />
+    <SUITE FILE_PATH="coverage/AIC_wf2018$xgboost_reg.coverage" NAME="xgboost_reg Coverage Results" MODIFIED="1540948734613" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/boost" />
+    <SUITE FILE_PATH="coverage/AIC_wf2018$caculate_score.coverage" NAME="caculate_score Coverage Results" MODIFIED="1540899624675" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/result" />
+    <SUITE FILE_PATH="coverage/AIC_wf2018$train_lgb_v8_preM.coverage" NAME="train_lgb_v8_preM Coverage Results" MODIFIED="1541244148684" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/boost" />
+    <SUITE FILE_PATH="coverage/AIC_wf2018$merge_with_prophet.coverage" NAME="merge_with_prophet Coverage Results" MODIFIED="1541239242865" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/preprocessing" />
+    <SUITE FILE_PATH="coverage/AIC_wf2018$feature_mean.coverage" NAME="feature_mean Coverage Results" MODIFIED="1541239261002" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/preprocessing" />
+    <SUITE FILE_PATH="coverage/AIC_wf2018$gensubmit_lgb_v6_preM.coverage" NAME="gensubmit_lgb_v6_preM Coverage Results" MODIFIED="1541243405849" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/lgbm" />
+    <SUITE FILE_PATH="coverage/AIC_wf2018$train_lgb_v8.coverage" NAME="train_lgb_v8 Coverage Results" MODIFIED="1541041872191" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/boost" />
+    <SUITE FILE_PATH="coverage/AIC_Weather_Forecasting$myloss.coverage" NAME="myloss Coverage Results" MODIFIED="1542967791092" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/seq2seq/loss" />
+    <SUITE FILE_PATH="coverage/AIC_wf2018$train_lgb_history_model_v6_preM.coverage" NAME="train_lgb_history_model_v6_preM Coverage Results" MODIFIED="1540448834060" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/lgbm" />
+    <SUITE FILE_PATH="coverage/AIC_Weather_Forecasting$train_on_ts_feature1_global.coverage" NAME="train_on_ts_feature1_global Coverage Results" MODIFIED="1542968067711" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/seq2seq" />
+    <SUITE FILE_PATH="coverage/AIC_wf2018$gensubmit_lr.coverage" NAME="gensubmit_lr Coverage Results" MODIFIED="1540955218340" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/boost" />
+    <SUITE FILE_PATH="coverage/AIC_Weather_Forecasting$train_global.coverage" NAME="train_global Coverage Results" MODIFIED="1542987598500" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/gbm" />
+    <SUITE FILE_PATH="coverage/AIC_wf2018$train_lgb_model.coverage" NAME="train_lgb_model Coverage Results" MODIFIED="1540434905336" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/lgbm" />
+    <SUITE FILE_PATH="coverage/AIC_Weather_Forecasting$gensubmit_lgb_q.coverage" NAME="gensubmit_lgb_q Coverage Results" MODIFIED="1542963073388" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/gbm" />
+    <SUITE FILE_PATH="coverage/AIC_wf2018$vis_submit__1_.coverage" NAME="vis_submit (1) Coverage Results" MODIFIED="1541074311495" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/result/merged_diff_feature/get_submit" />
+    <SUITE FILE_PATH="coverage/AIC_wf2018$train_rf_reg.coverage" NAME="train_rf_reg Coverage Results" MODIFIED="1541228885665" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/boost" />
+    <SUITE FILE_PATH="coverage/AIC_wf2018$gensubmit_lgb_model.coverage" NAME="gensubmit_lgb_model Coverage Results" MODIFIED="1540898737417" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/lgbm" />
+    <SUITE FILE_PATH="coverage/AIC_wf2018$gensubmit_lgb_history_model_v2_preM.coverage" NAME="gensubmit_lgb_history_model_v2_preM Coverage Results" MODIFIED="1540898279628" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/lgbm" />
+    <SUITE FILE_PATH="coverage/AIC_wf2018$train_catboost_reg_q.coverage" NAME="train_catboost_reg_q Coverage Results" MODIFIED="1540979229910" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/boost" />
+    <SUITE FILE_PATH="coverage/AIC_wf2018$train_lgb_v7.coverage" NAME="train_lgb_v7 Coverage Results" MODIFIED="1540972726391" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/lgbm" />
+    <SUITE FILE_PATH="coverage/AIC_wf2018$nc2csv.coverage" NAME="nc2csv Coverage Results" MODIFIED="1540381786645" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/preprocessing" />
+    <SUITE FILE_PATH="coverage/AIC_wf2018$gensubmit_lgb_v8q.coverage" NAME="gensubmit_lgb_v8q Coverage Results" MODIFIED="1541043712777" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/boost" />
+    <SUITE FILE_PATH="coverage/AIC_wf2018$generate_seq2seq_feature48.coverage" NAME="generate_seq2seq_feature48 Coverage Results" MODIFIED="1541242971738" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/seq2seq" />
+    <SUITE FILE_PATH="coverage/AIC_wf2018$merge_all_results_diff_feature.coverage" NAME="merge_all_results_diff_feature Coverage Results" MODIFIED="1541243519371" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/result" />
+    <SUITE FILE_PATH="coverage/AIC_wf2018$vis_diff_model_result.coverage" NAME="vis_diff_model_result Coverage Results" MODIFIED="1541054969158" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/result" />
+    <SUITE FILE_PATH="coverage/AIC_wf2018$get_submit__1_.coverage" NAME="get_submit (1) Coverage Results" MODIFIED="1541243779198" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/result/merged_diff_model/get_submit" />
+    <SUITE FILE_PATH="coverage/AIC_wf2018$generate_prophet_features.coverage" NAME="generate_prophet_features Coverage Results" MODIFIED="1541036247559" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/preprocessing" />
+    <SUITE FILE_PATH="coverage/AIC_wf2018$train_xgboost_reg_q.coverage" NAME="train_xgboost_reg_q Coverage Results" MODIFIED="1540976865478" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/boost" />
+    <SUITE FILE_PATH="coverage/AIC_Weather_Forecasting$obs_and_M_split.coverage" NAME="obs_and_M_split Coverage Results" MODIFIED="1542963723347" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/eval" />
+    <SUITE FILE_PATH="coverage/AIC_wf2018$merge_with_prophet_remain_na.coverage" NAME="merge_with_prophet_remain_na Coverage Results" MODIFIED="1540988521943" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/preprocessing" />
+    <SUITE FILE_PATH="coverage/AIC_wf2018$train_lgb_history_model_preM.coverage" NAME="train_lgb_history_model_preM Coverage Results" MODIFIED="1540449438303" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/lgbm" />
+    <SUITE FILE_PATH="coverage/AIC_wf2018$train_lr_reg.coverage" NAME="train_lr_reg Coverage Results" MODIFIED="1540954687592" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/boost" />
+    <SUITE FILE_PATH="coverage/AIC_wf2018$merge_all_results.coverage" NAME="merge_all_results Coverage Results" MODIFIED="1540899604395" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/result" />
+    <SUITE FILE_PATH="coverage/AIC_Weather_Forecasting$gensubmit_catboost_q.coverage" NAME="gensubmit_catboost_q Coverage Results" MODIFIED="1542962981560" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/gbm" />
+    <SUITE FILE_PATH="coverage/AIC_Weather_Forecasting$gensubmit_global.coverage" NAME="gensubmit_global Coverage Results" MODIFIED="1542984959478" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/gbm" />
+    <SUITE FILE_PATH="coverage/AIC_Weather_Forecasting$vis_result.coverage" NAME="vis_result Coverage Results" MODIFIED="1543046078012" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/result" />
+    <SUITE FILE_PATH="coverage/AIC_wf2018$pytest_in_test_prophet_py.coverage" NAME="pytest in test_prophet.py Coverage Results" MODIFIED="1541036164851" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/data" />
+    <SUITE FILE_PATH="coverage/AIC_wf2018$gensubmit_lgb_v4_preM.coverage" NAME="gensubmit_lgb_v4_preM Coverage Results" MODIFIED="1540899055440" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/lgbm" />
+    <SUITE FILE_PATH="coverage/AIC_wf2018$train_lgb_v5.coverage" NAME="train_lgb_v5 Coverage Results" MODIFIED="1540449648273" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/lgbm" />
+    <SUITE FILE_PATH="coverage/AIC_wf2018$gensubmit_lgb_v4.coverage" NAME="gensubmit_lgb_v4 Coverage Results" MODIFIED="1540898976855" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/lgbm" />
+    <SUITE FILE_PATH="coverage/AIC_wf2018$gensubmit_lgb_v5_preM.coverage" NAME="gensubmit_lgb_v5_preM Coverage Results" MODIFIED="1540986131862" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/lgbm" />
+    <SUITE FILE_PATH="coverage/AIC_wf2018$fbprophet.coverage" NAME="fbprophet Coverage Results" MODIFIED="1541038804103" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/data" />
+    <SUITE FILE_PATH="coverage/AIC_wf2018$gensubmit_lgb_history_model_v2.coverage" NAME="gensubmit_lgb_history_model_v2 Coverage Results" MODIFIED="1540898211476" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/lgbm" />
+    <SUITE FILE_PATH="coverage/AIC_wf2018$train_lgb_v8_q.coverage" NAME="train_lgb_v8_q Coverage Results" MODIFIED="1541042804710" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/boost" />
+    <SUITE FILE_PATH="coverage/AIC_wf2018$train_lgb_v6.coverage" NAME="train_lgb_v6 Coverage Results" MODIFIED="1540446780144" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/lgbm" />
+    <SUITE FILE_PATH="coverage/AIC_Weather_Forecasting$vis_submit.coverage" NAME="vis_submit Coverage Results" MODIFIED="1542958874352" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/eval/submit" />
+    <SUITE FILE_PATH="coverage/AIC_Weather_Forecasting$eval.coverage" NAME="eval Coverage Results" MODIFIED="1542964491301" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/eval" />
+    <SUITE FILE_PATH="coverage/AIC_Weather_Forecasting$ananysis.coverage" NAME="ananysis Coverage Results" MODIFIED="1542960102562" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/data" />
+    <SUITE FILE_PATH="coverage/AIC_Weather_Forecasting$gensubmit_catboost.coverage" NAME="gensubmit_catboost Coverage Results" MODIFIED="1542962885547" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/gbm" />
+    <SUITE FILE_PATH="coverage/AIC_wf2018$gensubmit_elasticnet.coverage" NAME="gensubmit_elasticnet Coverage Results" MODIFIED="1540955472252" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/boost" />
+    <SUITE FILE_PATH="coverage/AIC_wf2018$gensubmit_lgb_v8.coverage" NAME="gensubmit_lgb_v8 Coverage Results" MODIFIED="1541043675655" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/boost" />
+    <SUITE FILE_PATH="coverage/AIC_wf2018$get_submit.coverage" NAME="get_submit Coverage Results" MODIFIED="1541252257584" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/result/merged_diff_model/get_submit" />
+    <SUITE FILE_PATH="coverage/AIC_Weather_Forecasting$train_lgb_global.coverage" NAME="train_lgb_global Coverage Results" MODIFIED="1542978636865" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/gbm" />
+    <SUITE FILE_PATH="coverage/AIC_wf2018$fillna_for_merge_data.coverage" NAME="fillna_for_merge_data Coverage Results" MODIFIED="1541238793001" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/preprocessing" />
+    <SUITE FILE_PATH="coverage/AIC_wf2018$gensubmit_rf.coverage" NAME="gensubmit_rf Coverage Results" MODIFIED="1540955311439" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/boost" />
+    <SUITE FILE_PATH="coverage/AIC_wf2018$train_lgb_v7__1_.coverage" NAME="train_lgb_v7 (1) Coverage Results" MODIFIED="1540975644743" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/boost" />
+    <SUITE FILE_PATH="coverage/AIC_Weather_Forecasting$generate_seq2seq_feature48.coverage" NAME="generate_seq2seq_feature48 Coverage Results" MODIFIED="1542963165764" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/seq2seq" />
+    <SUITE FILE_PATH="coverage/AIC_Weather_Forecasting$train_lgb_q_global.coverage" NAME="train_lgb_q_global Coverage Results" MODIFIED="1542981441128" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/gbm" />
+    <SUITE FILE_PATH="coverage/AIC_Weather_Forecasting$get_submit.coverage" NAME="get_submit Coverage Results" MODIFIED="1543046217989" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/result/merged/submit" />
+    <SUITE FILE_PATH="coverage/AIC_wf2018$gensubmit_lr_q.coverage" NAME="gensubmit_lr_q Coverage Results" MODIFIED="1541070167112" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/boost" />
+    <SUITE FILE_PATH="coverage/AIC_wf2018$generate_seq2seq_feature38.coverage" NAME="generate_seq2seq_feature38 Coverage Results" MODIFIED="1541242814788" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/seq2seq" />
+    <SUITE FILE_PATH="coverage/AIC_wf2018$vis_submit.coverage" NAME="vis_submit Coverage Results" MODIFIED="1541252628588" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/eval/submit" />
+    <SUITE FILE_PATH="coverage/AIC_wf2018$gensubmit_lgb_v8q_preM.coverage" NAME="gensubmit_lgb_v8q_preM Coverage Results" MODIFIED="1541251724709" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/boost" />
+    <SUITE FILE_PATH="coverage/AIC_wf2018$merge_all_result_diff_model.coverage" NAME="merge_all_result_diff_model Coverage Results" MODIFIED="1541252070726" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/result" />
+    <SUITE FILE_PATH="coverage/AIC_Weather_Forecasting$gen_obs_M_of_day.coverage" NAME="gen_obs_M_of_day Coverage Results" MODIFIED="1542962643086" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/gbm" />
+    <SUITE FILE_PATH="coverage/AIC_wf2018$gensubmit_lgb_v7q.coverage" NAME="gensubmit_lgb_v7q Coverage Results" MODIFIED="1540974007272" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/boost" />
+    <SUITE FILE_PATH="coverage/AIC_wf2018$train_rf_reg_q.coverage" NAME="train_rf_reg_q Coverage Results" MODIFIED="1541228546679" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/boost" />
+    <SUITE FILE_PATH="coverage/AIC_wf2018$mlp.coverage" NAME="mlp Coverage Results" MODIFIED="1540901944545" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/lgbm" />
+    <SUITE FILE_PATH="coverage/AIC_Weather_Forecasting$train_catboost_global.coverage" NAME="train_catboost_global Coverage Results" MODIFIED="1542979077416" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/gbm" />
+    <SUITE FILE_PATH="coverage/AIC_wf2018$generate_seq2seqq_feature48.coverage" NAME="generate_seq2seqq_feature48 Coverage Results" MODIFIED="1540457712815" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/seq2seq" />
+    <SUITE FILE_PATH="coverage/AIC_Weather_Forecasting$gensubmit_lgb_global.coverage" NAME="gensubmit_lgb_global Coverage Results" MODIFIED="1542976547332" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/gbm" />
+    <SUITE FILE_PATH="coverage/AIC_wf2018$vis.coverage" NAME="vis Coverage Results" MODIFIED="1540972410304" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/data/testb3/merge" />
+    <SUITE FILE_PATH="coverage/AIC_wf2018$diff__1_.coverage" NAME="diff (1) Coverage Results" MODIFIED="1541136203870" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/eval/fore" />
+    <SUITE FILE_PATH="coverage/AIC_Weather_Forecasting$generate_obs_M_of_day.coverage" NAME="generate_obs_M_of_day Coverage Results" MODIFIED="1542962679550" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/gbm" />
+    <SUITE FILE_PATH="coverage/AIC_wf2018$gensubmit_catboost.coverage" NAME="gensubmit_catboost Coverage Results" MODIFIED="1540954958017" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/boost" />
+    <SUITE FILE_PATH="coverage/AIC_wf2018$gensubmit_lgb_history_model_v3.coverage" NAME="gensubmit_lgb_history_model_v3 Coverage Results" MODIFIED="1540985909711" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/lgbm" />
+    <SUITE FILE_PATH="coverage/AIC_wf2018$gensubmit_lgb_only_history.coverage" NAME="gensubmit_lgb_only_history Coverage Results" MODIFIED="1540898918485" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/lgbm" />
+    <SUITE FILE_PATH="coverage/AIC_wf2018$train_lgb_v7_q.coverage" NAME="train_lgb_v7_q Coverage Results" MODIFIED="1540975716006" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/boost" />
+    <SUITE FILE_PATH="coverage/AIC_wf2018$gensubmit_xgboost.coverage" NAME="gensubmit_xgboost Coverage Results" MODIFIED="1540955055422" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/boost" />
+    <SUITE FILE_PATH="coverage/AIC_wf2018$gensubmit_lgb_model_preM.coverage" NAME="gensubmit_lgb_model_preM Coverage Results" MODIFIED="1540898836462" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/lgbm" />
+    <SUITE FILE_PATH="coverage/AIC_wf2018$train_stacking.coverage" NAME="train_stacking Coverage Results" MODIFIED="1541057815001" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/stacking" />
+    <SUITE FILE_PATH="coverage/AIC_wf2018$eval.coverage" NAME="eval Coverage Results" MODIFIED="1541252405058" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/eval" />
+    <SUITE FILE_PATH="coverage/AIC_wf2018$gensubmit_lgb_v7q_na.coverage" NAME="gensubmit_lgb_v7q_na Coverage Results" MODIFIED="1540989520156" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/boost" />
+    <SUITE FILE_PATH="coverage/AIC_Weather_Forecasting$get_submit__1_.coverage" NAME="get_submit (1) Coverage Results" MODIFIED="1542964251438" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/result/merged/submit" />
+    <SUITE FILE_PATH="coverage/AIC_wf2018$train_lgb_v7_q_na.coverage" NAME="train_lgb_v7_q_na Coverage Results" MODIFIED="1540989162613" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/boost" />
+    <SUITE FILE_PATH="coverage/AIC_Weather_Forecasting$train_lgb.coverage" NAME="train_lgb Coverage Results" MODIFIED="1542970708273" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/gbm" />
+    <SUITE FILE_PATH="coverage/AIC_Weather_Forecasting$merge_all_results.coverage" NAME="merge_all_results Coverage Results" MODIFIED="1543046026298" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/result" />
+    <SUITE FILE_PATH="coverage/AIC_wf2018$caculate_score_diff_model.coverage" NAME="caculate_score_diff_model Coverage Results" MODIFIED="1541252106767" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/result" />
+    <SUITE FILE_PATH="coverage/AIC_wf2018$fillna_for_remain_all_data.coverage" NAME="fillna_for_remain_all_data Coverage Results" MODIFIED="1541238892713" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/preprocessing" />
+    <SUITE FILE_PATH="coverage/AIC_wf2018$gensubmit_lgb_v8_preM.coverage" NAME="gensubmit_lgb_v8_preM Coverage Results" MODIFIED="1541249178871" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/boost" />
+    <SUITE FILE_PATH="coverage/AIC_wf2018$train_on_ts_feature2_global.coverage" NAME="train_on_ts_feature2_global Coverage Results" MODIFIED="1540453897664" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/seq2seq" />
+    <SUITE FILE_PATH="coverage/AIC_wf2018$caculate_score_diff_feature.coverage" NAME="caculate_score_diff_feature Coverage Results" MODIFIED="1541243549722" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/result" />
+    <SUITE FILE_PATH="coverage/AIC_Weather_Forecasting$train_local.coverage" NAME="train_local Coverage Results" MODIFIED="1542986345821" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/gbm" />
+    <SUITE FILE_PATH="coverage/AIC_wf2018$train_lgb_v9_q.coverage" NAME="train_lgb_v9_q Coverage Results" MODIFIED="1541210566395" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/boost" />
+    <SUITE FILE_PATH="coverage/AIC_wf2018$train_lgb_v8_q_preM.coverage" NAME="train_lgb_v8_q_preM Coverage Results" MODIFIED="1541247571162" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/boost" />
+    <SUITE FILE_PATH="coverage/AIC_wf2018$train_xgboost_reg.coverage" NAME="train_xgboost_reg Coverage Results" MODIFIED="1540976607199" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/boost" />
+    <SUITE FILE_PATH="coverage/AIC_wf2018$train_lgb_v6_preM.coverage" NAME="train_lgb_v6_preM Coverage Results" MODIFIED="1540471709628" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/lgbm" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/README.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="-529">
+                <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
+              </first_editor>
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/seq2seq/train_on_ts_feature2_global.py">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/seq2seq/train_on_ts_feature1_global.py">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/seq2seq/train_on_ts_feature0_global.py">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/result/score/score_2018-10-28.json">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/result/caculate_score.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="266">
+              <caret line="14" column="28" selection-start-line="14" selection-start-column="20" selection-end-line="14" selection-end-column="28" />
+              <folding>
+                <element signature="e#0#19#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/result/vis_result.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="19">
+              <caret line="16" column="32" selection-start-line="16" selection-start-column="32" selection-end-line="16" selection-end-column="32" />
+              <folding>
+                <element signature="e#0#19#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/checkpoints/catboost/feature_importance_info.json">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/seq2seq/generate_seq2seq_feature48.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-2280">
+              <folding>
+                <element signature="e#0#9#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/preprocessing/nc2csv_all.bat">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/preprocessing/nc2csv_testb.sh" />
+        <option value="$PROJECT_DIR$/preprocessing/fillna_for_merge_data.py" />
+        <option value="$PROJECT_DIR$/preprocessing/nc2csv.py" />
+        <option value="$PROJECT_DIR$/preprocessing/nc2csv_all.sh" />
+        <option value="$PROJECT_DIR$/preprocessing/nc2csv_all.bat" />
+        <option value="$PROJECT_DIR$/preprocessing/nc2.bat" />
+        <option value="$PROJECT_DIR$/gbm/gen_obs_M_of_day.py" />
+        <option value="$PROJECT_DIR$/gbm/generate_obs_M_of_day.py" />
+        <option value="$PROJECT_DIR$/gbm/gen_boost_all.sh" />
+        <option value="$PROJECT_DIR$/gbm/gen_boost_all.bat" />
+        <option value="$PROJECT_DIR$/gbm/train_boost_all.bat" />
+        <option value="$PROJECT_DIR$/gbm/train_boost_all.sh" />
+        <option value="$PROJECT_DIR$/gbm/gensubmit_catboost_q.py" />
+        <option value="$PROJECT_DIR$/gbm/gensubmit_lgb.py" />
+        <option value="$PROJECT_DIR$/gbm/gensubmit_lgb_q.py" />
+        <option value="$PROJECT_DIR$/eval/obs_and_M_split.py" />
+        <option value="$PROJECT_DIR$/result/merged/get_submit.py" />
+        <option value="$PROJECT_DIR$/eval/eval.py" />
+        <option value="$PROJECT_DIR$/eval/eval_b12b5.sh" />
+        <option value="$PROJECT_DIR$/seq2seq/train_on_ts_feature0_global.py" />
+        <option value="$PROJECT_DIR$/seq2seq/train_on_ts_feature1_global.py" />
+        <option value="$PROJECT_DIR$/preprocessing/merge_with_prophet.py" />
+        <option value="$PROJECT_DIR$/preprocessing/generate_prophet_features.py" />
+        <option value="$PROJECT_DIR$/preprocessing/fillna.bat" />
+        <option value="$PROJECT_DIR$/checkpoints/catboost_q/feature_importance_info.json" />
+        <option value="$PROJECT_DIR$/gbm/train_lgb_global.py" />
+        <option value="$PROJECT_DIR$/gbm/train_lgb_q_global.py" />
+        <option value="$PROJECT_DIR$/gbm/train_catboost.py" />
+        <option value="$PROJECT_DIR$/gbm/train_catboost_global.py" />
+        <option value="$PROJECT_DIR$/train_global_all.bat" />
+        <option value="$PROJECT_DIR$/util/utils.py" />
+        <option value="$PROJECT_DIR$/gbm/gensubmit_lgb_global.py" />
+        <option value="$PROJECT_DIR$/gbm/gensubmit_catboost.py" />
+        <option value="$PROJECT_DIR$/gbm/util.py" />
+        <option value="$PROJECT_DIR$/gbm/__init__.py" />
+        <option value="$PROJECT_DIR$/gbm/utils.py" />
+        <option value="$PROJECT_DIR$/gbm/gen_global_all.bat" />
+        <option value="$PROJECT_DIR$/gbm/gensubmit_global.py" />
+        <option value="$PROJECT_DIR$/result/merge_all_results.py" />
+        <option value="$PROJECT_DIR$/gbm/train_global_all.bat" />
+        <option value="$PROJECT_DIR$/gbm/train_gbm_all.bat" />
+        <option value="$PROJECT_DIR$/gbm/train_global.py" />
+        <option value="$PROJECT_DIR$/gbm/train_local.py" />
+        <option value="$PROJECT_DIR$/gbm/gen_local.py" />
+        <option value="$PROJECT_DIR$/gbm/gensubmit_local.py" />
+        <option value="$PROJECT_DIR$/gbm/gen_local_all.bat" />
+        <option value="$PROJECT_DIR$/result/caculate_score.py" />
+        <option value="$PROJECT_DIR$/result/merged/submit/get_submit.py" />
+        <option value="$PROJECT_DIR$/result/vis_result.py" />
+        <option value="$PROJECT_DIR$/eval/eval_b12b5.bat" />
+        <option value="$PROJECT_DIR$/README.md" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
+    <option name="width" value="1616" />
+    <option name="height" value="876" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="AIC_Weather_Forecasting" type="b2602c69:ProjectViewProjectNode" />
+              <item name="AIC_Weather_Forecasting" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="true" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="F:\2018fall\AIC_Weather_Forecasting\result\merged\submit" />
+      <recent name="F:\2018fall\AIC_Weather_Forecasting\eval\obs_and_M" />
+      <recent name="F:\2018fall\AIC_Weather_Forecasting\boost" />
+      <recent name="F:\2018fall\AIC_wf2018\eval\obs" />
+      <recent name="F:\2018fall\AIC_wf2018\eval\fore" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="F:\2018fall\AIC_Weather_Forecasting\eval\submit" />
+      <recent name="F:\2018fall\AIC_Weather_Forecasting\gbm" />
+      <recent name="F:\2018fall\AIC_Weather_Forecasting" />
+      <recent name="F:\2018fall\AIC_Weather_Forecasting\eval" />
+      <recent name="F:\2018fall\AIC_wf2018_yuanpengli\lgbm" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Python.get_submit">
+    <configuration name="caculate_score" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="AIC_wf2018" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/result" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/result/caculate_score.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="get_submit" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="AIC_wf2018" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/result/merged/submit" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/result/merged/submit/get_submit.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="merge_all_results" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="AIC_wf2018" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/result" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/result/merge_all_results.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="train_global" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="AIC_wf2018" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/gbm" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/gbm/train_global.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="vis_result" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="AIC_wf2018" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/result" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/result/vis_result.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="Python.merge_all_results" />
+      <item itemvalue="Python.train_global" />
+      <item itemvalue="Python.caculate_score" />
+      <item itemvalue="Python.get_submit" />
+      <item itemvalue="Python.vis_result" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.get_submit" />
+        <item itemvalue="Python.vis_result" />
+        <item itemvalue="Python.caculate_score" />
+        <item itemvalue="Python.merge_all_results" />
+        <item itemvalue="Python.train_global" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="25518787-0678-46d7-b9af-a510c0e65fa6" name="Default Changelist" comment="" />
+      <created>1540362896042</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1540362896042</updated>
+      <workItem from="1542958511642" duration="40561000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TestHistory">
+    <history-entry file="pytest_in_test_prophet_py - 2018.11.01 at 09h 36m 03s.xml">
+      <configuration name="pytest in test_prophet.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="pytest_in_test_prophet_py - 2018.11.01 at 09h 36m 06s.xml">
+      <configuration name="pytest in test_prophet.py" configurationId="tests" />
+    </history-entry>
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="40561000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1616" height="876" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.7872697" visible="true" weight="0.20348836" />
+      <window_info id="Structure" order="1" sideWeight="0.21273032" side_tool="true" visible="true" weight="0.20348836" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32825485" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.31717452" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.3986111" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="8" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Compute Code Lines" order="10" weight="0.32825485" />
+      <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
+      <window_info anchor="bottom" id="Terminal" order="12" visible="true" weight="0.1731302" />
+      <window_info anchor="bottom" id="Python Console" order="13" weight="0.32916668" />
+      <window_info anchor="right" id="Commander" order="0" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Remote Host" order="3" />
+      <window_info anchor="right" id="SciView" order="4" visible="true" weight="0.06782946" />
+      <window_info anchor="right" id="Database" order="5" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/result/testb2/merged/get_submit/get_submit.py</url>
+          <line>3</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://D:/Anaconda/Lib/site-packages/catboost/core.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1404">
+          <caret line="2355" column="8" selection-start-line="2355" selection-start-column="8" selection-end-line="2355" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/Anaconda/Lib/site-packages/lightgbm/sklearn.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="615" column="6" selection-start-line="615" selection-start-column="6" selection-end-line="615" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gbm/train_lgb_q_global.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="16" column="50" selection-start-line="16" selection-start-column="46" selection-end-line="16" selection-end-column="50" />
+          <folding>
+            <element signature="e#0#19#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gbm/gensubmit_lgb.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#0#19#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gbm/gensubmit_global.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="21" column="8" selection-start-line="19" selection-start-column="4" selection-end-line="62" selection-end-column="25" />
+          <folding>
+            <element signature="e#0#19#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gbm/gen_global_all.bat">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-line="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/checkpoints/catboost/model_90001_feature_0.m">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-3819" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gbm/gen_local_all.bat">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="10" selection-start-line="10" selection-end-line="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gbm/train_gbm_all.bat">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="10" column="19" selection-start-line="10" selection-start-column="7" selection-end-line="10" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gbm/catboost_info/catboost_training.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-3121" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/eval/eval_b1_to_b5.sh">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/eval/obs_and_M/2018-10-28.csv">
+      <provider selected="true" editor-type-id="csv-text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/eval/obs_and_M/2018-10-29.csv">
+      <provider selected="true" editor-type-id="csv-text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/eval/obs_and_M/2018-10-31.csv">
+      <provider selected="true" editor-type-id="csv-text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/eval/obs_and_M/2018-10-30.csv">
+      <provider selected="true" editor-type-id="csv-text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/eval/obs_and_M_split.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#0#19#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gbm/gensubmit_local.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2299">
+          <caret line="127" column="109" selection-start-line="127" selection-start-column="109" selection-end-line="127" selection-end-column="109" />
+          <folding>
+            <element signature="e#0#19#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gbm/generate_obs_M_of_day.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="247">
+          <caret line="13" column="37" selection-start-line="13" selection-start-column="37" selection-end-line="13" selection-end-column="37" />
+          <folding>
+            <element signature="e#0#19#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gbm/train_global.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="245" column="27" selection-start-line="245" selection-start-column="4" selection-end-line="246" selection-end-column="148" />
+          <folding>
+            <element signature="e#0#19#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gbm/train_local.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="7" column="35" selection-start-line="7" selection-start-column="24" selection-end-line="7" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/result/merged/2018-10-28.csv">
+      <provider selected="true" editor-type-id="csv-text-editor" />
+    </entry>
+    <entry file="file://D:/Anaconda/Lib/site-packages/sklearn/utils/validation.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="138">
+          <caret line="461" selection-start-line="461" selection-end-line="461" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/result/merged/2018-11-03.csv">
+      <provider selected="true" editor-type-id="csv-text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/result/merged/2018-11-02.csv">
+      <provider selected="true" editor-type-id="csv-text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/result/score/score_2018-10-29.json">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/result/score/score_2018-10-30.json">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/result/score/score_2018-10-31.json">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/result/score/score_2018-11-03.json">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/result/score/score_2018-11-02.json">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/result/score/score_2018-11-01.json">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/eval/eval.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="102" column="48" selection-start-line="102" selection-start-column="48" selection-end-line="102" selection-end-column="48" />
+          <folding>
+            <element signature="e#1253#1264#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/result/merge_all_results.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="23" column="65" selection-start-line="23" selection-start-column="65" selection-end-line="23" selection-end-column="65" />
+          <folding>
+            <element signature="e#0#19#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/result/merged/submit/get_submit.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="380">
+          <caret line="20" column="35" selection-start-line="20" selection-start-column="35" selection-end-line="20" selection-end-column="35" />
+          <folding>
+            <element signature="e#0#19#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/eval/submit/2018-11-03_v4.csv">
+      <provider selected="true" editor-type-id="csv-text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/eval/eval_b1_to_b5.bat">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="532">
+          <caret line="28" column="44" selection-start-line="28" selection-start-column="44" selection-end-line="28" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/preprocessing/fillna.bat">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/preprocessing/generate_prophet_features.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="11" column="7" selection-start-line="11" selection-start-column="7" selection-end-line="11" selection-end-column="7" />
+          <folding>
+            <element signature="e#0#19#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/requirements.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="11" column="14" lean-forward="true" selection-start-line="11" selection-start-column="14" selection-end-line="11" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/preprocessing/nc2csv.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#0#15#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/preprocessing/merge_with_prophet.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-67" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/preprocessing/nc2csv_all.sh">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/preprocessing/nc2csv_all.bat">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/checkpoints/catboost/feature_importance_info.json">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/result/score/score_2018-10-28.json">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/result/vis_result.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="19">
+          <caret line="16" column="32" selection-start-line="16" selection-start-column="32" selection-end-line="16" selection-end-column="32" />
+          <folding>
+            <element signature="e#0#19#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/result/caculate_score.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="266">
+          <caret line="14" column="28" selection-start-line="14" selection-start-column="20" selection-end-line="14" selection-end-column="28" />
+          <folding>
+            <element signature="e#0#19#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/seq2seq/train_on_ts_feature2_global.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/seq2seq/train_on_ts_feature1_global.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/seq2seq/train_on_ts_feature0_global.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/seq2seq/generate_seq2seq_feature48.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2280">
+          <folding>
+            <element signature="e#0#9#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="-529">
+            <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
